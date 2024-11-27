@@ -1,3 +1,11 @@
+/* VARIBLES */
+:root{
+    --color-primario: #2a9d8f;
+    --color-secundario: #264653;
+    --color-background: #f4f4f4;
+    --color-texto: #333;
+}
+
 /* Reset básico */
 
 
@@ -11,8 +19,8 @@ body{
     padding: 0;
     /* Esitlos gennerales aplicados en body que se heredann a los hijos */
     font-family: Arial, Helvetica, sans-serif;
-    color: #333;
-    background-color: #f4f4f4;
+    color: var();
+    background-color: var(--color-background);
 }
 
 header, main, footer{
@@ -26,7 +34,7 @@ footer{
 
 /* Según la propiedad de espeficidad, se va a dar mayor prioridad a el selector que proporcione mejor contexto del el elemento que quiere modificar.*/
 header h1{
-    color: #2a9d8f;
+    color: var(--color-primario);
 }
 
 
@@ -36,12 +44,12 @@ h1{
 
 .author{
     font-weight: bold;
-    color: #2a9d8f;
+    color: var(--color-primario);
 }
 
 .subtitle{
     font-size: 18px;
-    color: #264653;
+    color: var(--color-secundario);
 }
 
 .lista-tareas{
@@ -57,7 +65,7 @@ h1{
 
 .tarea-checkbox{
     margin-right: 10px;
-    accent-color: #2a9d8f;
+    accent-color: var(--color-primario);
     cursor:pointer;
 }
 
@@ -65,7 +73,7 @@ h1{
 .tarea-checkbox:checked + .tarea-descripcion{
     text-decoration: line-through;
     font-style: italic;
-    color:#264653 ;
+    color: var(--color-secundario);
 }
 
 
