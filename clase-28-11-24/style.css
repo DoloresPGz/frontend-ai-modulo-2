@@ -91,3 +91,25 @@ footer{
     order: -1;
 }
 
+/* FORMULARIO */
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+button{
+    background-color: #A7C957;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #88B04B;
+}
+
