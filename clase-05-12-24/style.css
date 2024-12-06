@@ -58,3 +58,14 @@ header{
 .nav-menu li a:hover{
     color: var(--color-secundario);
 }
+
+/* FOOTER */
+
+footer{
+    padding: 20px 0;
+    text-align: center;
+    background-color: var(--color-principal);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
