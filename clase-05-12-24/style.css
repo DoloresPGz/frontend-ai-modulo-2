@@ -98,7 +98,7 @@ main{
     height: 20rem;
     overflow: hidden;
     position: relative;
-
+    background-color: #333;
 }
 
 
@@ -123,6 +123,7 @@ main{
 .contenedor-imagen img{
     border-radius: .5rem;
     width: 100%;
+    
 }
 .contenedor-imagen:hover .sombra{
     opacity: 1;
